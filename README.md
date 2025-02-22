@@ -29,8 +29,7 @@ This program uses the face recognition module and a webcam to compare faces agai
    ```
 
 ## Customaization
-A database of images of criminals is able to be linked to the program. As long as the names of the file images is in 'first_name last_name' format, and the images are jpg, the program will be able to use the images. Import your own images into the 'MostWantedList' folder to expand the scope of the encoding bank.
-
+A database of images of criminals is able to be linked to the program. As long as the names of the file images is in 'first_name last_name' format, and the images are jpg, the program will be able to use the images. Set the path to your images folder equal to the path variable in main.py. The default name of the folder has been set to 'MostWantedList'.
 ## Notes
 Tolerance for face encoding comparasion was altered from the default 0.6 to 0.55 as locally run tests performed better with the 0.55 tolerance.
 Versions of the imported libraries and modules are sensitive when working with face_recognition libray. When working with other versions of, for example numpy, issues were encountered. Install the exact versions of the libraries from requirements.txt for best performace.
